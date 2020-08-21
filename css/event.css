@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+body nav {
+  padding: 0 16px !important;
+  width: 100%;
+  top: 0;
+  border-radius: 0px;
+  background: #fcf3f3;
+  box-shadow: -16px 16px 32px #e6e6e6, 16px -16px 32px #ffffff;
+}
+
+.navbar-toggler {
+  padding: 0 !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: rgb(211, 26, 34) !important;
+}
+
+.nav-link:hover {
+  color: rgb(180, 4, 4) !important;
+}
+
+.navLogo {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.navbar-nav li {
+  padding: 0 20px;
+}
