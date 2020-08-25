@@ -24,6 +24,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
     <title>Church</title>
   </head>
   <body>
@@ -48,19 +52,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="./introduction.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About us</a>
+            <a class="nav-link" href="./introduction.html">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">History</a>
+            <a class="nav-link" href="./history.html">History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./event.html">Events</a>
+            <a class="nav-link" href="#">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="./gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact-us</a>
@@ -70,16 +74,294 @@
     </nav>
 
     <!-- NAVBAR END -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
 
-    <section>
-      <h1>
-        EVENTS
-      </h1>
+    <section class="eventSection">
+      <h1><a href="#" class="underline"> EVENTS</a></h1>
+
+      <div class="container">
+        <div class="row mb-5 mt-5 row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href="">
+                <img
+                  src="./Images/ElinthiduAppa_ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-danger"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  >Read more..</a
+                >
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="modal-title text-primary"
+                          id="exampleModalLabel"
+                        >
+                          ElinthiduAppa_ShortFilm
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body text-dark">
+                        <img
+                          class="shortFlimModal"
+                          src="./Images/ElinthiduAppa_ShortFilm.jpg"
+                          alt=""
+                          srcset=""
+                        />
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quia, cumque suscipit aliquam natus at tempore beatae
+                        animi quo vero officia.
+                        <br />
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga eveniet optio, eos expedita quaerat rem.
+                        <br />
+                        This is conducted in 16-03-2015
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-lite"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                          Save changes
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--// Modal // -->
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href="">
+                <img
+                  src="./Images/ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/Child_Group.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href="">
+                <img
+                  src="./Images/Location_map.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/ElinthiduAppa_ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/Child_Group.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/Location_map.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+                <a href="#" class="btn btn-danger">Read more..</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4 mt-5 row-cols-1 row-cols-md-4">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/ElinthiduAppa_ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+                <a href="#" class="btn btn-danger">Read more..</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href="">
+                <img
+                  src="./Images/ShortFilm.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/Child_Group.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <a href=""
+                ><img
+                  src="./Images/Location_map.jpg"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--/.Carousel Wrapper-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
