@@ -11,8 +11,14 @@ body nav {
   width: 100%;
   top: 0;
   border-radius: 0px;
-  background: #fcf3f3;
-  box-shadow: -16px 16px 32px #e6e6e6, 16px -16px 32px #ffffff;
+  background-image: linear-gradient(
+    to top,
+    #ffbfbf,
+    #ff9c98,
+    #ff776e,
+    #ff4e40,
+    #ff0000
+  );
 }
 
 /*===============
@@ -49,6 +55,11 @@ body nav {
                                                                 NAVBAR END
                                                                 
                                                                 =============== */
+.gallerySection {
+  margin-top: 10vh;
+  height: 100vh;
+}
+
 #myBtn {
   height: 50px;
   width: 50px;
@@ -113,3 +124,101 @@ h1 {
   transition: ease all 1s;
   color: rgb(180, 4, 4);
 }
+
+/*===============
+  
+                                                                FOOTER START
+                                                                
+                                                                =============== */
+
+footer {
+  border-radius: 0px;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #f9f3ff,
+    #f7e6fd,
+    #fad8f7,
+    #ffc9ec
+  );
+  font-family: "Poppins", sans-serif;
+
+  box-shadow: 5px 5px 10px #afa0b0, -5px -5px 10px #ffffff;
+}
+
+.footerHead {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.863);
+  font-weight: 600;
+  margin-bottom: 5vh !important;
+}
+
+.footerRow .col h5 {
+  font-weight: 900;
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.footerRow a {
+  text-decoration: none !important;
+  color: black;
+}
+.footerRow a:hover {
+  color: red;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  border: 1px solid rgb(255, 42, 42) !important;
+  padding-left: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-radius: 20px !important;
+}
+
+.inputCol {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.form-control::placeholder {
+  color: #ff0000;
+  opacity: 0.4;
+}
+
+.subjectRow {
+  flex-direction: column;
+}
+.subjectRow .inputCol {
+  width: 100%;
+}
+
+textarea::placeholder {
+  color: #ff0000;
+  opacity: 0.4;
+}
+
+.footerBtn {
+  padding-top: 20px;
+}
+
+.footerBtn button {
+  padding: 10px;
+  border-radius: 20px;
+}
+.footerRow {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}
+/*===============
+                                                                                                                                                                                                                                                                                                                                                                          FOOTER END
+                                                                                                                                                                                                                                                                                                                                                                          =============== */
